@@ -13,7 +13,7 @@ module.exports = function (api) {
           '@screens': './screens',
         },
       }],
-      'react-native-reanimated/plugin', // ¡siempre último!
+      'react-native-worklets/plugin', // ¡siempre último!
     ],
   };
 };
