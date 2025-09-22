@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Inventario Iluminación",
+    "slug": "inventario-iluminacion",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#111827"
+    },
+    "userInterfaceStyle": "automatic",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#111827"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "apiBase": "https://script.google.com/macros/s/AKfycbxggPgr4AH5Dope6izIGSEksdwxOqfwm1U8zgb1noCqLICD6_EclLYpuF2eTZqtUhU/exec",
+      "apiKey": "KENLLY-INV-2025",
+      "corsWorker": "https://kenlly.kenllycalderonmorales.workers.dev/?u=",
+      "corsKey": ""
+    }
+  }
+}
