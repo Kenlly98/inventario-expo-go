@@ -11,6 +11,9 @@
       "backgroundColor": "#111827"
     },
     "userInterfaceStyle": "automatic",
+
+    "jsEngine": "hermes",               
+
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -22,7 +25,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#111827"
-      }
+      },
+      "permissions": ["android.permission.CAMERA"]  
     },
     "web": {
       "favicon": "./assets/icon.png"
