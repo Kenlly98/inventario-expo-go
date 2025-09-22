@@ -4,7 +4,7 @@
  *   1) Copy this file to the ROOT of your project (inventario-expo-go).
  *   2) Run: node apply_safearea_fix.js
  * It will:
- *  - Replace `import { SafeAreaView } from 'react-native'` by
+ *  - Replace `import { SafeAreaView } from 'react-native-safe-area-context';` by
  *    `import { SafeAreaView } from 'react-native-safe-area-context'` in .js/.tsx/.ts files
  *  - Add SafeAreaProvider in App.js (if not present) with minimal, non-destructive wrapping.
  *
